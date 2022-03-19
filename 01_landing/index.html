@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
     <!-- Linking to CSS file -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" type = "text/css" href="../style.css">
   </head>
 
   <body class = "bg-light">
@@ -16,45 +16,42 @@
     
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
-      <div class="container-fluid">
-        <a class="navbar-brand bg-info text-white p-2" href="../01_landing/index.html">Latitude</a>
+      <a class="navbar-brand bg-info text-white p-2" href="../01_landing/index.html">Latitude</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <!-- Link -->
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            <!-- Dropdown -->
-            <!-- Plots -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id = "navbardrop" data-toggle = "dropdown" href="#">Plots</a>
-              <div class = "dropdown-menu">
-                  <a class = "dropdown-item" href = "../02_visualization/visualization_page_01.html">Max Temperature</a>
-                  <a class = "dropdown-item" href = "../02_visualization/visualization_page_02.html">Humidity</a>
-                  <a class = "dropdown-item" href = "../02_visualization/visualization_page_03.html">Cloudiness</a>
-                  <a class = "dropdown-item" href = "../02_visualization/visualization_page_04.html">Wind Speed</a>
-              </div>
-            </li>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Link -->
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <!-- Dropdown -->
+          <!-- Plots -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id = "navbardrop" data-toggle = "dropdown" href="#">Plots</a>
+            <div class = "dropdown-menu">
+                <a class = "dropdown-item" href = "../02_visualization/visualization_page_01.html">Max Temperature</a>
+                <a class = "dropdown-item" href = "../02_visualization/visualization_page_02.html">Humidity</a>
+                <a class = "dropdown-item" href = "../02_visualization/visualization_page_03.html">Cloudiness</a>
+                <a class = "dropdown-item" href = "../02_visualization/visualization_page_04.html">Wind Speed</a>
+            </div>
+          </li>
 
-            <!-- Comparison -->
-            <li class="nav-item">
-              <a class="nav-link" href="../03_Comparisons/comparison_page_01.html">Comparison</a>
-            </li>
+          <!-- Comparison -->
+          <li class="nav-item">
+            <a class="nav-link" href="../03_Comparisons/comparison_page_01.html">Comparison</a>
+          </li>
 
-            <!-- Data -->
-            <li class="nav-item">
-              <a class="nav-link" href="../04_data/data_page_01.html">Data</a>
-            </li>
-          </ul>
-        </div>
-
+          <!-- Data -->
+          <li class="nav-item">
+            <a class="nav-link" href="../04_data/data_page_01.html">Data</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
     <!-- Landing Page content -->
-    <div class = "container pt-4 bg-light">
+    <div class = "container py-4 bg-light">
       <div class = "row">
         <div class = "col-7 pt-3 mx-auto bg-white custom-width">
           <h1 class = "text-info">Summary: Latitude vs. X</h1>
@@ -68,18 +65,18 @@
           <hr>
           <div class = "row">
             <div class = "col">
-              <a class = "list-group-item list-group-item-action p-0" href = "#"><img src = "../resources/assets/images/Fig1.png" alt = "Max Temperature" class = "img-fluid"></a>
+              <a class = "list-group-item list-group-item-action p-0" href = "../02_visualization/visualization_page_01.html"><img src = "../resources/assets/images/Fig1.png" alt = "Max Temperature" class = "img-fluid"></a>
             </div>
             <div class = "col">
-              <a class = "list-group-item list-group-item-action p-0" href = "#"><img src = "../resources/assets/images/Fig2.png" alt = "Humidity" class = "img-fluid"></a>
+              <a class = "list-group-item list-group-item-action p-0" href = "../02_visualization/visualization_page_02.html"><img src = "../resources/assets/images/Fig2.png" alt = "Humidity" class = "img-fluid"></a>
             </div>
           </div>
           <div class = "row pt-4">
             <div class = "col">
-              <a class = "list-group-item list-group-item-action p-0" href = "#"><img src = "../resources/assets/images/Fig3.png" alt = "Cloudiness" class = "img-fluid"></a>
+              <a class = "list-group-item list-group-item-action p-0" href = "../02_visualization/visualization_page_03.html"><img src = "../resources/assets/images/Fig3.png" alt = "Cloudiness" class = "img-fluid"></a>
             </div>
             <div class = "col">
-              <a class = "list-group-item list-group-item-action p-0" href = "#"><img src = "../resources/assets/images/Fig4.png" alt = "Wind Speed" class = "img-fluid"></a>
+              <a class = "list-group-item list-group-item-action p-0" href = "../02_visualization/visualization_page_04.html"><img src = "../resources/assets/images/Fig4.png" alt = "Wind Speed" class = "img-fluid"></a>
             </div>
           </div>
         </div>

@@ -1,27 +1,9 @@
-#id {
-
+h1, h3, h5 {
+    font-family: "Georgia";
 }
 
-.bg-color {
-    background-color: #eeeeee;
-}
-
-.padding01 {
-    padding-top: 25px;
-    padding-right: 100px;
-    padding-bottom: 25px;
-    padding-left: 100px;
-}
-
-.box01 {
-    width: 1000px;
-}
-
-.margin {
-    margin-top: 100px;
-    margin-right: 50px;
-    margin-bottom: 25px;
-    margin-left: 50px;
+.navbar-brand {
+    font-family: "Georgia";
 }
 
 @media screen and (max-width: 480px) {

@@ -53,30 +53,48 @@
     <!-- Visualization Page content -->
     <div class = "container py-4">
       <div class = "row">
-        <div class = "col-7 pt-3 mx-auto bg-white">
-          <h1 class = "text-info">Max Temperature</h1>
+        <div class = "col-sm-7 pt-3 mx-auto bg-white">
+          <h1 class = "text-info">Cloudiness</h1>
           <hr>
           <img src = "../resources/assets/images/Fig3.png" alt = "Max Temperature" class = "img-fluid">
           <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
           <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
         </div>
-        <div class = "col-4 py-3 mx-auto bg-white" style = "height: 100%">
+        <div class = "col-sm-4 py-3 mx-auto bg-white" style = "height: 100%">
           <h3 class = "text-info">Visualizations</h3>
           <hr>
-          <div class = "row">
-            <div class = "col">
-              <a class = "list-group-item list-group-item-action p-0" href = "../02_visualization/visualization_page_01.html"><img src = "../resources/assets/images/Fig1.png" alt = "Max Temperature" class = "img-fluid"></a>
+          <div class = "row row-cols-sm-2">
+            <div class = "col mb-4">
+              <a class = "list-group-item list-group-item-action p-0 container_img" href = "../02_visualization/visualization_page_01.html">
+                <img src = "../resources/assets/images/Fig1.png" alt = "Max Temperature" class = "img-fluid">
+                <div class = "overlay">
+                  <div class = "overlay_text">Max Temperature</div>
+                </div>
+              </a>
             </div>
-            <div class = "col">
-              <a class = "list-group-item list-group-item-action p-0" href = "../02_visualization/visualization_page_02.html"><img src = "../resources/assets/images/Fig2.png" alt = "Humidity" class = "img-fluid"></a>
+            <div class = "col mb-4">
+              <a class = "list-group-item list-group-item-action p-0 container_img" href = "../02_visualization/visualization_page_02.html">
+                <img src = "../resources/assets/images/Fig2.png" alt = "Humidity" class = "img-fluid">
+                <div class = "overlay">
+                  <div class = "overlay_text">Humidity</div>
+                </div>
+              </a>
             </div>
-          </div>
-          <div class = "row pt-3">
-            <div class = "col">
-              <a class = "list-group-item active p-0" href = "../02_visualization/visualization_page_03.html"><img src = "../resources/assets/images/Fig3.png" alt = "Cloudiness" class = "img-fluid"></a>
+            <div class = "col mb-4">
+              <a class = "list-group-item active p-0 container_img" href = "../02_visualization/visualization_page_03.html">
+                <img src = "../resources/assets/images/Fig3.png" alt = "Cloudiness" class = "img-fluid">
+                <div class = "overlay">
+                  <div class = "overlay_text">Cloudiness</div>
+                </div>
+              </a>
             </div>
-            <div class = "col">
-              <a class = "list-group-item list-group-item-action p-0" href = "../02_visualization/visualization_page_04.html"><img src = "../resources/assets/images/Fig4.png" alt = "Wind Speed" class = "img-fluid"></a>
+            <div class = "col mb-4">
+              <a class = "list-group-item list-group-item-action p-0 container_img" href = "../02_visualization/visualization_page_04.html">
+                <img src = "../resources/assets/images/Fig4.png" alt = "Wind Speed" class = "img-fluid">
+                <div class = "overlay">
+                  <div class = "overlay_text">Wind Speed</div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
